@@ -4,19 +4,16 @@
 .text-left {
   display: block;
   text-align: left; /* Выравнивание по левому краю */
-  letter-spacing: 25px;
 }
 
 .text-center {
   display: block;
   text-align: center; /* Выравнивание по центру */
-  letter-spacing: 25px;
 }
 
 .text-right {
   display: block;
   text-align: right; /* Выравнивание по правому краю */
-  letter-spacing: 25px;
 }
 
 /* Затемняющий оверлей для наложения на фоновые изображения */
@@ -62,9 +59,10 @@
 /* Стили шапки страницы */
 .header {
   display: grid;
+  max-width: 100px;
   grid-template-columns: 2fr 1fr 2fr; /* Три колонки одинаковой ширины */
   align-items: center;
-  padding: 92px 49px 96px 51px;
+  padding: 92px 51px 96px 51px;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -154,7 +152,7 @@
   font-weight: 700;
   font-size: 100px;
   line-height: 100%;
-  letter-spacing: 30px; /* Большой межбуквенный интервал */
+  letter-spacing: 25px; /* Большой межбуквенный интервал */
   text-transform: uppercase;
 }
 
